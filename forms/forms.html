@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>forms</title>
+</head>
+<body>
+<form action="forms.html" method="get" enctype="multipart/form-data">
+    <label for="name">name</label>
+    <input type="text" id="name" placeholder="your full name" name="userName"><br>
+    <label for="job">job</label>
+    <input type="text" id="job" placeholder="what are you doing in your life" name="userPosition"><br>
+    <label for="phone">phone number</label>
+    <input type="tel" id="phone" placeholder="you can give also cellphone" name="userPhone"><br>
+    <label for="fruit">favorite fruit</label><br>
+    <input type="checkbox" id="fruit" placeholder="" name="fruits"><br>
+    <input type="checkbox"  placeholder="" name="fruits"><br>
+    <input type="checkbox"  placeholder="" name="fruits"><br>
+    <fieldset>
+        <legend>favorite dog kind</legend>
+        <label for="dog"></label>
+        <input type="radio" id="dog" placeholder="" name="dogs"><br>
+        <input type="radio" id="dog" placeholder="" name="dogs"><br>
+        <input type="radio" id="dog" placeholder="" name="dogs"><br>
+    </fieldset>
+    <label for="feelings">how do you feel?</label><br>
+    <select name="feelings" id="feelings" size="">
+            <optgroup label="good">
+                <option value="3" selected>anger</option>
+                <option value="3">like</option>
+            </optgroup>
+            <optgroup label="bad">
+                <option value="0">love</option>
+                <option value="1">hate</option>
+            </optgroup>
+    </select><br>
+    <label for="color">your hair color</label><br>
+    <input type="color" pattern="#[a-f0-9]{6}" id="color" placeholder="" name="userColor"><br>
+    <label for="birthday">your birthday</label><br>
+    <input type="date" id="birthday" placeholder="" name="birthday"><br>
+    <label for="pic">your profile pic</label><br>
+    <input type="file" placeholder="" id="pic" name="pic"><br>
+    <label for="search">search for friends</label><br>
+    <input type="search" id="search" placeholder="" name="search"><br>
+    <input type="range" placeholder="" name=""><br>
+    <label for="email">email pleas</label><br>
+    <input type="email" id="email" placeholder="" name="email"><br>
+    <label for="sexy">how much do you feel sexy?</label><br>
+    <input type="number" id="sexy" min="0" max="10" step="1" placeholder="" name="sexy"><br>
+    <label for="det">pleas give me more details</label><br>
+    <textarea id="det" name="det" rows="3" cols="6"></textarea><br>
+    <input type="hidden" placeholder="" name="userId" >
+    <input type="reset" value="clean" placeholder="" name="userColor"><br>
+    <input type="submit">
+
+</form>
+</body>
+</html>
