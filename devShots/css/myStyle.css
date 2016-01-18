@@ -1,0 +1,33 @@
+div > p  {
+    color: red;
+}
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Merriweather);
+
+header{
+background-color: aqua;
+
+font-family: 'Merriweather';
+}
+
+footer{
+}
+
+article{}
+
+section{}
+
+div{}
+
+#mainBrightColor{}
+
+#mainDarkColor{}
+
+#dark{}
+
+#theDarkest{}
+
+

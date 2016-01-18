@@ -1,0 +1,19 @@
+h2 {
+    color: red;
+}
+
+.anotherList ul li a{
+    color: red;
+}
+
+p em {
+    color: red;
+}
+
+[method="get"] {
+    color: red;
+}
+
+ul > li {
+    color: blueviolet;
+}
