@@ -1,0 +1,169 @@
+/*colors*/
+.bgColor1 {
+    background-color: #949381;
+}
+.bgColor2 {
+    background-color: #E9E9E9;
+}
+.bgColor3 {
+    background-color: #D0EAE9;
+}
+.bgColor4 {
+    background-color: #282828;
+}
+/*text*/
+.textColor1{
+    color: white;
+}
+.textColor2{
+    color: #FFDD0F;
+}
+.textColor3{
+    color: #444444;
+}
+.fontSize1{
+    font-size: 35px;
+}
+.fontSize2{
+    font-size: 24px;
+}
+.fontSize3{
+    font-size: 16px;
+}
+.fontSize4{
+    font-size: 15px;
+}
+.fontSize5{
+    font-size: 14px;
+}
+
+body{
+    direction: rtl;
+    text-align: right;
+    font-family: Arial;
+}
+.warp{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+header section:first-child article{
+    float: right;
+    height: 40px;
+    border: solid red 1px;
+    margin: auto;
+    padding: 5px 0px;
+}
+header section article div{
+    width: 280px;
+    height: inherit;
+    float: inherit;
+
+}
+header h2 {
+    float: inherit;
+    margin: inherit;
+    padding: inherit;
+}
+[src="img/tinypng-logo.png"]{
+    float: inherit;
+    height: 70%;
+    padding: inherit;
+
+}
+aside {
+    float: left;
+    width: 100px;
+    border: solid blue 1px;
+}
+.person{
+    width: 200px;
+
+    margin: 20px;
+}
+
+
+/*registration section*/
+form{
+    width: 450px;
+    height: 480px;
+    position: relative;
+}
+.registration{
+    height: 595px;
+}
+.registration .title{
+    padding: 0 0 22px 0;
+    margin: 0;
+}
+.registration .subtitle{
+    margin: 0 0 10px 0;
+}
+.registration .description{
+    width: 450px;
+    padding: 0 0 10px 0;
+    border-bottom: solid 1px white;
+    margin: 0;
+}
+.registration .description:nth-child(3){
+    width: 450px;
+    padding: 10px 0;
+    margin: 0;
+}
+.cell{
+    margin: 13px 0;
+}
+.cell:first-child{
+    margin-top: 20px;
+}
+label{
+    width: 100px;
+    display: inline-block;
+}
+input{
+    margin: 0;
+    border: 0;
+    padding: 0 20px;
+    width: 310px;
+    height: 39px;
+}
+[type="submit"]{
+    position: absolute;
+    left: 0px;
+    box-sizing: content-box;
+}
+
+.information{
+    height: 810px;
+}
+
+.information h2{
+    margin: 0;
+}
+.information h3{
+    margin: 0 0 20px 0;
+}
+.information p{
+    margin: 0;
+}
+
+.information .item{
+    height: 290px;
+    width:  150px;
+    margin: 25px 0 25px 50px;
+    float: right;
+
+}
+.information .item:nth-child(6n){
+    margin: 25px 0 ;
+    background: red;
+}
+
+.information img{
+    height: 110px;
+    background: white;
+    padding: 20px;
+    margin: 0 0 25px 0;
+    border-radius: 20px;
+}
