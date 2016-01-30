@@ -21,6 +21,13 @@
 .textColor3{
     color: #444444;
 }
+.textColor4{
+    color: #EEEEEE;
+}
+.textColor5{
+    color: #B5B5B5;
+}
+
 .fontSize1{
     font-size: 35px;
 }
@@ -36,7 +43,7 @@
 .fontSize5{
     font-size: 14px;
 }
-
+/*general style*/
 body{
     direction: rtl;
     text-align: right;
@@ -48,41 +55,30 @@ body{
     padding: 60px 0;
 }
 
-header section:first-child article{
-    float: right;
-    height: 40px;
-    border: solid red 1px;
-    margin: auto;
-    padding: 5px 0px;
+.clear{
+    clear: both;
 }
-header section article div{
-    width: 280px;
-    height: inherit;
-    float: inherit;
 
+/*lectures section*/
+.strip{
+    height: 90px;
 }
-header h2 {
-    float: inherit;
-    margin: inherit;
-    padding: inherit;
+.stripWarp{
+    max-width: 900px;
+    margin: 0 auto;
+    height: 90px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.strip h2{
+    float: right;
+    margin: 0;
 }
 [src="img/tinypng-logo.png"]{
-    float: inherit;
-    height: 70%;
-    padding: inherit;
-
-}
-aside {
+    height: 30px;
     float: left;
-    width: 100px;
-    border: solid blue 1px;
+    margin: 0;
 }
-.person{
-    width: 200px;
-
-    margin: 20px;
-}
-
 
 /*registration section*/
 form{
@@ -134,10 +130,10 @@ input{
     box-sizing: content-box;
 }
 
+/*information section*/
 .information{
-    height: 810px;
+    height: 820px;
 }
-
 .information h2{
     margin: 0;
 }
@@ -147,23 +143,55 @@ input{
 .information p{
     margin: 0;
 }
-
 .information .item{
     height: 290px;
     width:  150px;
-    margin: 25px 0 25px 50px;
+    margin: 25px 0 25px 37px;
     float: right;
-
+}
+.information .item:nth-child(n+7){
+    margin: 25px 0 0 37px;
 }
 .information .item:nth-child(6n){
-    margin: 25px 0 ;
-    background: red;
+    margin: 25px 0 0 0;
 }
-
 .information img{
-    height: 110px;
-    background: white;
+    width: 110px;
+
     padding: 20px;
     margin: 0 0 25px 0;
     border-radius: 20px;
+}
+.item:nth-child(2) img{
+    background: #FDF8DA;
+}
+.item:nth-child(3) img{
+    background: #EBD7E1;
+}
+.item:nth-child(4) img{
+    background: #FFAD8D;
+}
+.item:nth-child(5) img{
+    background: #C2DEF3;
+}
+.item:nth-child(6) img{
+    background: #C0ADF0;
+}
+.item:nth-child(8) img{
+    background: #D2EDDC;
+}
+.item:nth-child(9) img{
+    background: #9ED5CB;
+}
+.item:nth-child(10) img{
+    background: #FCDFD7;
+}
+.item:nth-child(11) img{
+    background: #F3ADD1;
+}
+.item:nth-child(12) img{
+    background: #E4CEE5;
+}
+div.line{
+    border-bottom: dotted 1px;
 }
